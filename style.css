@@ -1,0 +1,35 @@
+body {
+   // background-color:aqua;
+}
+
+.logo {
+    padding-top:180px;
+}
+
+.button { 
+}
+
+.search {
+    -webkit-appearance: none;
+    height: 34px;
+    width: 130px;
+    border: white;
+    margin: 8px;
+    padding-right:40px;
+}
+
+.goog {
+    -webkit-appearance: none;
+    height: 34px;
+    width: 130px;
+    border: white;
+    border-radius:3px;
+}
+
+.lucky {
+    -webkit-appearance: none;
+    height: 34px;
+    width: 130px;
+    border: white;
+    border-radius:3px;
+}
