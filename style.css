@@ -1,19 +1,28 @@
-.toplt {
+.links {
     font-family:Arial, sans-serif;
     padding-top: 10px;
 }
 
+.rt {
+    float: right;
+    display: flex;
+}
+
 .toprt {
     font-family:Arial, sans-serif;
-    float:right;
-    margin-top: -10px;
 }
+
+.apps {
+    border:none;  
+    margin: -5px 10px 0px 10px; 
+}
+
 
 a:link {
     font-size: 10.2pt;
     color:#000000;
     text-decoration: none;
-    margin-left: 12px;
+    margin: 0px 10px 0px 10px;
 }
 
 a:hover {
@@ -22,11 +31,6 @@ a:hover {
 
 a:visited {
     color:#000000;
-}
-
-.apps {
-    border:none;
-
 }
 
 .logo {
