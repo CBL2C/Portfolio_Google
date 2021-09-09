@@ -34,16 +34,43 @@ a:visited {
     border-radius: 25px;
     height: 35px;
     width: 35px;
+    background-color: #ffffff;
+}
+
+.apps:hover {
+    background-color: #f2f2f2;
+    
 }
 
 .dots {
-    height: 25px;
+    height: 23px;
+    margin-top: -12px;
+    margin-left: -18px;
+    position: absolute;
+    opacity: 60%;
+}
+
+.dots2 {
+    height: 23px;
+    margin-top: -12px;
+    margin-left: -12px;
+    position: absolute;
+    opacity: 60%;
+}
+
+.dots3 {
+    height: 23px;
+    margin-top: -12px;
+    margin-left: -6px;
+    position: absolute;
+    opacity: 60%;
 }
 
 .avatar {
-    height: 35px;
-    margin: -7px 10px 0px 10px; 
+    height: 34px;
+    margin: -7px 4px 0px 0px; 
     border-radius: 25px;
+    transition: all .1s ease-in-out;
 }
 
 .avatar:hover {
@@ -70,7 +97,17 @@ a:visited {
     padding-right:40px;
     border-radius: 25px;
     background-image: url(./images/outline_search_black_24dp.png);
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
+    background-size: 20px 20px;
+    background-position: 10px 12px; 
+    opacity:40%;   
+}
+
+.search:hover {
+    height: 46px;
+    width: 601px;
+    border: 1px solid #ffffff;
+    filter: drop-shadow(0 1px 5px rgba(33,33,33,.33));
 }
 
 .goog {
