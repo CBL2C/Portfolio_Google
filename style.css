@@ -1,25 +1,10 @@
 .links {
-    font-family:Arial, sans-serif;
+    font-family:"Roboto", Arial, sans-serif;
     padding-top: 10px;
+    font-size: 10.2pt;
 }
-
-.rt {
-    float: right;
-    display: flex;
-}
-
-.toprt {
-    font-family:Arial, sans-serif;
-}
-
-.apps {
-    border:none;  
-    margin: -5px 10px 0px 10px; 
-}
-
 
 a:link {
-    font-size: 10.2pt;
     color:#000000;
     text-decoration: none;
     margin: 0px 10px 0px 10px;
@@ -33,20 +18,53 @@ a:visited {
     color:#000000;
 }
 
+.rt {
+    float: right;
+    display: flex;
+}
+
+.toprt {
+    font-family:"Roboto", Arial, sans-serif;
+    font-size: 9.6pt;
+}
+
+.apps {
+    border:none;  
+    margin: -7px 10px 0px 10px; 
+    border-radius: 25px;
+    height: 35px;
+    width: 35px;
+}
+
+.avatar {
+    height: 35px;
+    margin: -7px 10px 0px 10px; 
+    border-radius: 25px;
+}
+
+.avatar:hover {
+    height: 30px;
+    margin: -5px 10px 0px 10px; 
+    border-radius: 25px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
 .logo {
     padding-top:230px;
 }
 
 .search {
+    display: flex;
     -webkit-appearance: none;
-    height: 34px;
-    width: 130px;
-    border: 1px solid gray;
+    height: 45px;
+    width: 600px;
+    border: 1px solid #dfe1e5;
     margin: 8px;
     margin-top: 30px;
     margin-bottom: 30px;
     padding-right:40px;
-    border-radius: 30%;
+    border-radius: 25px;
     background-image: url(./images/outline_search_black_24dp.png);
     background-repeat: no-repeat;
 }
@@ -58,7 +76,7 @@ a:visited {
     border: white;
     border-radius:3px;
     margin-right: 8px;
-    font-family: Arial, sans-serif;
+    font-family:"Roboto", Arial, sans-serif;
     font-size: 11pt;
     background-color: #f8f9fa;
 }
@@ -69,7 +87,7 @@ a:visited {
     width: 140px;
     border: white;
     border-radius:3px;
-    font-family: Arial, sans-serif;
+    font-family:"Roboto", Arial, sans-serif;
     font-size: 11pt;
     background-color: #f8f9fa;
 }
