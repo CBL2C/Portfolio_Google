@@ -7,6 +7,7 @@ body {
         display: flex;
         flex-wrap:wrap;
     }
+
 }
 
 .links {
@@ -106,8 +107,9 @@ body {
     display: flex;
     -webkit-appearance: none;
     height: 45px;
-    width: 600px;
-    border: 1px solid #dfe1e5;
+    width: 80%;
+    max-width: 600px;
+    border: 1px solid #a7a7a7;
     margin: 8px;
     margin-top: 30px;
     margin-bottom: 30px;
