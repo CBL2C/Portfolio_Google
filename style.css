@@ -1,20 +1,26 @@
-.links {
+body {
     font-family:"Roboto", Arial, sans-serif;
-    padding-top: 10px;
-    font-size: 10.2pt;
 }
 
-a:link {
+
+.links {
+    font-family: Arial, sans-serif;
+    padding-top: 10px;
+    font-size: 10.2pt;
+    justify-content: space-between;
+}
+
+.toplt:link {
     color:#000000;
     text-decoration: none;
     margin: 0px 10px 0px 10px;
 }
 
-a:hover {
+.toplt:hover {
     text-decoration: underline;
 }
 
-a:visited {
+.toplt:visited {
     color:#000000;
 }
 
@@ -24,8 +30,13 @@ a:visited {
 }
 
 .toprt {
-    font-family:"Roboto", Arial, sans-serif;
     font-size: 9.6pt;
+}
+
+.toprt:link {
+    color:#000000;
+    text-decoration: none;
+    margin: 0px 10px 0px 10px;
 }
 
 .apps {
@@ -143,14 +154,46 @@ a:visited {
     filter: drop-shadow(0 1px 2px rgba(184, 184, 184, 0.33));
 }
 
-#footer {
+.footer {
+    color:#a5a5a5;
     display: flex;
     background-color:#f2f2f2;
     position: fixed;
     bottom: 0px;
     left: 0px;
-    height: 30px;
+    height: 33px;
     width: 100%;
     justify-content: space-between;
-    
+    font-family: Arial, sans-serif;
+    font-size: 10.6pt;
+    padding-top: 14px;
 }
+
+.leaf {
+    height:14px;
+}
+
+.footlt {
+    padding-left:20px;
+}
+
+.footrt {
+    padding-right: 20px;
+}
+
+.footlinks {
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+.footlinks:link {
+    color:#70757a;
+    text-decoration: none;
+   // margin: 0px 4px 0px 4px;
+}
+
+.footlinks:visited {
+    color:#70757a;
+}
+
+
