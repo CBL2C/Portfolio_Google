@@ -2,6 +2,12 @@ body {
     font-family:"Roboto", Arial, sans-serif;
 }
 
+@media only screen and (max-width: 800px) {
+    .footlinks {
+        display: flex;
+        flex-wrap:wrap;
+    }
+}
 
 .links {
     font-family: Arial, sans-serif;
@@ -169,8 +175,15 @@ body {
     padding-top: 14px;
 }
 
+.carbon {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -150px;
+}
+
 .leaf {
     height:14px;
+    
 }
 
 .footlt {
@@ -189,7 +202,6 @@ body {
 .footlinks:link {
     color:#70757a;
     text-decoration: none;
-   // margin: 0px 4px 0px 4px;
 }
 
 .footlinks:visited {
