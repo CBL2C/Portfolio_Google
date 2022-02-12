@@ -1,1 +1,1 @@
-A google clone, because portfolio
+A Google clone.  Made with just HTMl and CSS. 

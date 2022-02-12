@@ -11,16 +11,14 @@ body {
 }
 
 .links {
-    font-family: Arial, sans-serif;
-    padding-top: 10px;
-    font-size: 10.2pt;
-    justify-content: space-between;
+    margin: 20px 0px 0px 10px;
 }
 
-.toplt:link {
+.toplt:link, .toprt:link {
     color:#000000;
     text-decoration: none;
-    margin: 0px 10px 0px 10px;
+    margin: 3px 10px 0px 10px;
+    font-family:Arial;
 }
 
 .toplt:hover {
@@ -31,20 +29,24 @@ body {
     color:#000000;
 }
 
+.lt {
+    float:left;
+    display:flex;
+}
+
 .rt {
     float: right;
     display: flex;
 }
 
-.toprt {
-    font-size: 9.6pt;
+.toplt {
+    font-size: 0.86rem;
 }
 
-.toprt:link {
-    color:#000000;
-    text-decoration: none;
-    margin: 0px 10px 0px 10px;
+.toprt {
+    font-size: 0.82rem;
 }
+
 
 .apps {
     border:none;  
