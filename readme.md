@@ -1,1 +1,1 @@
-A Google clone.  Made with just HTMl and CSS. 
+A Google clone.  Made with just HTML and CSS. 
